@@ -1,0 +1,3 @@
+    This is the weather app to recieve the weather via open-source api in the public sector 
+weather department. we can find the weather through the location or latitude and magnitude....
+
