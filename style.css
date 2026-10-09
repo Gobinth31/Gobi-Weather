@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+}
+
+.app-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 100%;
+  max-width: 420px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+input {
+  flex: 1;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+}
+
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #00d2ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #009ec3;
+}
+
+.weather-card {
+  margin-top: 10px;
+}
+
+#cityName {
+  font-size: 1.8rem;
+}
+
+#temperature {
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#description {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  opacity: 0.9;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-size: 0.95rem;
+  opacity: 0.85;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 12px;
+  border-radius: 10px;
+}
+
+/* Footer Styles */
+.app-footer {
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.8rem;
+  opacity: 0.85;
+  line-height: 1.5;
+}
+
+.app-footer a {
+  color: #00d2ff;
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin: 15px 0 10px 0;
+}
+
+.coord-box {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.coord-box input {
+  width: 40%;
+}
+
+.coord-box button {
+  width: 20%;
+}

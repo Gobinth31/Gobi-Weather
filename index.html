@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gobi's Weather</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>Gobi's Weather</h1>
+
+    <!-- Search Mode 1: City Name -->
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name...">
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <p class="divider">-- OR Search by Coordinates --</p>
+
+    <!-- Search Mode 2: Latitude & Longitude -->
+    <div class="coord-box">
+      <input type="number" step="any" id="latInput" placeholder="Latitude (e.g. 11.01)">
+      <input type="number" step="any" id="lonInput" placeholder="Longitude (e.g. 76.95)">
+      <button id="coordBtn">Go</button>
+    </div>
+
+    <div class="weather-card" id="weatherCard">
+      <h2 id="cityName">--</h2>
+      <p id="temperature">--°C</p>
+      <p id="description">Search for a city or coordinates to see weather</p>
+      <div class="details">
+        <p>Humidity: <span id="humidity">--</span>%</p>
+        <p>Wind Speed: <span id="wind">--</span> km/h</p>
+      </div>
+    </div>
+
+    <footer class="app-footer">
+      <p>Created by Gobinath S AIML std, Full stack Developer</p>
+      <p>Call: <a href="tel:+919500596652">+91 9500596652</a> | Email: <a href="mailto:gobinath5671@gmail.com">gobinath5671@gmail.com</a></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
